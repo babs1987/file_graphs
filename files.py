@@ -22,8 +22,7 @@ def find_text(dir, text):
 
     return files
 
-
-if _name_ == "_main_":
+if __name__=="__main__":
     for i in find_text("root", "new york"):
         print("New York in:", i)
 
